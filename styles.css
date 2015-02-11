@@ -1,9 +1,13 @@
 body {
 	color:#222222;
 	font-size:16px;
-}
-h1 {
-	background-color: blue;
-	color: orange;
+	font-family: "Proxima Nova", Verdana, sans-serif;}
+
+h1, h2, h3 {
 	font-size:2em;
-}
+	color: #FBFAFB;
+	background-color: #494B60;}
+p {
+	color: #665544;}
+
+
