@@ -1,13 +1,32 @@
+{ margin:0; padding:0; box-sizing:border-box; }
+
 body {
-	color:#222222;
+	color:#222222; /* light black color */
 	font-size:16px;
-	font-family: "Proxima Nova", Verdana, sans-serif;}
+	font-family: 'Roboto', Verdana, sans-serif;
+	font-weight: 100;
+}
 
-h1, h2, h3 {
+h1, h2 {
 	font-size:2em;
-	color: #FBFAFB;
-	background-color: #494B60;}
+	color: #FBFAFB; /* white-ish color */
+	background-color: #494B60; /* blueberry color */
+}
+
+h3 {
+	font-size:1.5em;
+	color: #FBFAFB; /* white-ish color */
+	background-color: #494B60; /* blueberry color */
+}
+
 p {
-	color: #665544;}
+	color: #665544; /* coffee color */
+}
 
-
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
